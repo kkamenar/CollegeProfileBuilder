@@ -12,6 +12,8 @@
 		9F0AB1051D186A8500971E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0AB1031D186A8500971E89 /* Main.storyboard */; };
 		9F0AB1071D186A8500971E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0AB1061D186A8500971E89 /* Assets.xcassets */; };
 		9F0AB10A1D186A8500971E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0AB1081D186A8500971E89 /* LaunchScreen.storyboard */; };
+		9F0AB1121D186B3800971E89 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AB1111D186B3800971E89 /* College.swift */; };
+		9F0AB1141D186DB300971E89 /* CollegeDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AB1131D186DB300971E89 /* CollegeDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9F0AB1061D186A8500971E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0AB1091D186A8500971E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F0AB10B1D186A8500971E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0AB1111D186B3800971E89 /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		9F0AB1131D186DB300971E89 /* CollegeDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				9F0AB0FF1D186A8500971E89 /* AppDelegate.swift */,
+				9F0AB1111D186B3800971E89 /* College.swift */,
 				9F0AB1011D186A8500971E89 /* ViewController.swift */,
 				9F0AB1031D186A8500971E89 /* Main.storyboard */,
+				9F0AB1131D186DB300971E89 /* CollegeDataViewController.swift */,
 				9F0AB1061D186A8500971E89 /* Assets.xcassets */,
 				9F0AB1081D186A8500971E89 /* LaunchScreen.storyboard */,
 				9F0AB10B1D186A8500971E89 /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				9F0AB1021D186A8500971E89 /* ViewController.swift in Sources */,
 				9F0AB1001D186A8500971E89 /* AppDelegate.swift in Sources */,
+				9F0AB1141D186DB300971E89 /* CollegeDataViewController.swift in Sources */,
+				9F0AB1121D186B3800971E89 /* College.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
